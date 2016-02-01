@@ -1,6 +1,5 @@
 package word.counter.web.resources;
 
-import word.counter.web.resources.security.User;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

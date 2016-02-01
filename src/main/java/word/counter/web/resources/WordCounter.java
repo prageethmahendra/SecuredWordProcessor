@@ -6,7 +6,6 @@ import word.counter.web.resources.pojo.CounterResults;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.io.*;
-import java.net.Authenticator;
 
 /**
  * Created by prageeth.g on 29/1/2016.

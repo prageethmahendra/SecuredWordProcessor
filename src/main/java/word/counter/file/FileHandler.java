@@ -1,7 +1,6 @@
 package word.counter.file;
 
 import java.io.*;
-import java.security.Timestamp;
 
 public class FileHandler {
     private static final String LOG_ARCHIVE_PATH = "log\\archive\\";

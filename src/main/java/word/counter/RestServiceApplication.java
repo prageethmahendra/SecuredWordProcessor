@@ -3,7 +3,6 @@ package word.counter;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
-import word.counter.web.resources.security.SensitiveWordHandler;
 
 import java.io.IOException;
 import java.net.URI;

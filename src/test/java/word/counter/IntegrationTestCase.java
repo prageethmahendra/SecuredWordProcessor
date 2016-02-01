@@ -1,16 +1,11 @@
 package word.counter;
 
-import com.sun.xml.internal.messaging.saaj.util.Base64;
-import org.glassfish.jersey.SslConfigurator;
 import org.glassfish.jersey.client.ClientConfig;
 import org.glassfish.jersey.client.ClientProperties;
-import org.glassfish.jersey.client.HttpUrlConnectorProvider;
 import org.glassfish.jersey.client.JerseyClient;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
 import word.counter.web.resources.pojo.CounterResults;
 
-import javax.net.ssl.SSLContext;
-import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
